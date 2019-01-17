@@ -1,0 +1,67 @@
+.header {
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+
+  &__nav-container {
+
+  }
+
+  &__nav {
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+  }
+
+  &__hamburger {
+    width: 34px;
+    height: 27px;
+    display: block;
+    position: relative;
+
+    .line {
+      display: block;
+      background: get-color('primary');
+      height: 5px;
+      width: 100%;
+      border-radius: 2px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .line-2 {
+      top: 10px;
+    }
+
+    .line-3 {
+      top: 20px;
+    }
+  }
+
+  &__menu {
+    display: none;
+  }
+
+  @include breakpoint(large) {
+
+    &__hamburger {
+      display: none;
+    }
+
+    &__menu {
+      display: block;
+
+      ul {
+        margin: 0;
+
+        li {
+          list-style: none;
+          list-style-type: none;
+        }
+      }
+    }
+  }
+}
