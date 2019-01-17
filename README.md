@@ -3,10 +3,12 @@ This is a  simple Silverstripe application.
 
 To run this aplication . 
 you have to create localhost . 
+
 In windows :
 
 step 1:
 windows/system32/drivers/etc/hosts create localhost address
+
 step 2:
 xampp/appache/conf/extra/httpd-v host config create a virtual host 
 
