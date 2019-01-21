@@ -7,8 +7,9 @@
         <div class=" row">
             <div class=" columns large-12 medium-12">
 
-                <h1 class="float-center"> STUDENT REGISTRATION FORM</h1>
-            </div></div>
+                <h1> STUDENT REGISTRATION FORM </h1>
+            </div>
+        </div>
     </div>
 
     <form >
